@@ -1,30 +1,10 @@
-# COMP-345-Assignment
+# Risk Game
 
 <p align="center">
   <a href="https://github.com/CSG48-TZ/comp-345-project">
   <img src="./Assets/C++logo.png" height="128">
   </a>
 </p>
-
-## Team Members 
-
-<div align="center">
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/CSG48-TZ"><img src="https://avatars.githubusercontent.com/u/82446800?v=4" width="100px;" alt=""/><br /><sub><b> Tongwei Zhang</b></sub></a></td>
-    <td align="center"><a href="https://github.com/DaxInvader"><img src="https://avatars.githubusercontent.com/u/24554538?v=4" width="100px;" alt=""/><br /><sub><b>Dario Cimmino</b></sub></a></td>
-    <td align="center"><a href="https://github.com/junkokie"><img src="https://avatars.githubusercontent.com/u/76203567?v=4" width="100px;" alt=""/><br /><sub><b>Wanjun Gong</b></sub></a></td>
-    <td align="center"><a href="https://github.com/therealsal"><img src="https://avatars.githubusercontent.com/u/75696327?v=4" width="100px;" alt=""/><br /><sub><b>Salman Hussain Ali</b></sub></a></td> 
-    <td align="center"><a href="https://github.com/jvobuu"><img src="https://avatars.githubusercontent.com/u/61026480?v=4" width="100px;" alt=""/><br /><sub><b>Jeremy Vo Buu</b></sub></a></td> 
-  </tr>
-</table>
-</div>
-<br>
-
-Concordia University 2023
-
-
-# Risk Game (Console)
 
 Welcome to the Risk Game! This is a console-based implementation of the popular strategy board game, Risk, created using C++. In this game, you will engage in a battle for global domination by strategically deploying your armies and conquering territories.
 
@@ -67,3 +47,20 @@ The game is played entirely using the console. You will be presented with menu o
 - The current version may have some limitations and bugs. Your feedback and contributions are welcome to improve the game.
 
 - The current version may have some limitations and bugs. Your feedback and contributions are welcome
+
+## Team Members 
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/CSG48-TZ"><img src="https://avatars.githubusercontent.com/u/82446800?v=4" width="100px;" alt=""/><br /><sub><b> Tongwei Zhang</b></sub></a></td>
+    <td align="center"><a href="https://github.com/DaxInvader"><img src="https://avatars.githubusercontent.com/u/24554538?v=4" width="100px;" alt=""/><br /><sub><b>Dario Cimmino</b></sub></a></td>
+    <td align="center"><a href="https://github.com/junkokie"><img src="https://avatars.githubusercontent.com/u/76203567?v=4" width="100px;" alt=""/><br /><sub><b>Wanjun Gong</b></sub></a></td>
+    <td align="center"><a href="https://github.com/therealsal"><img src="https://avatars.githubusercontent.com/u/75696327?v=4" width="100px;" alt=""/><br /><sub><b>Salman Hussain Ali</b></sub></a></td> 
+    <td align="center"><a href="https://github.com/jvobuu"><img src="https://avatars.githubusercontent.com/u/61026480?v=4" width="100px;" alt=""/><br /><sub><b>Jeremy Vo Buu</b></sub></a></td> 
+  </tr>
+</table>
+</div>
+<br>
+
+Concordia University 2023
