@@ -5,6 +5,7 @@
   <img src="./Assets/C++logo.png" height="128">
   </a>
 </p>
+
 ## Team Members 
 
 <div align="center">
@@ -27,41 +28,23 @@ Concordia University 2023
 
 Welcome to the Risk Game! This is a console-based implementation of the popular strategy board game, Risk, created using C++. In this game, you will engage in a battle for global domination by strategically deploying your armies and conquering territories.
 
-## Getting Started
-
-To run the Risk Game on your local machine, follow the instructions below:
-
-1. **Clone the repository**: Begin by cloning this repository to your local machine using the following command:
-   ```
-   git clone <repository-url>
-   ```
-
-2. **Compile the code**: Navigate to the cloned directory and compile the C++ code using a C++ compiler. For example, if you have GCC installed, you can compile the code using the following command:
-   ```
-   g++ risk.cpp -o risk
-   ```
-
-3. **Run the game**: Once the code is compiled successfully, run the game by executing the generated executable. Use the following command:
-   ```
-   ./risk
-   ```
-
 ## Gameplay
 
 1. **Objective**: The objective of the game is to conquer the entire world by eliminating all other players or by successfully occupying all territories on the game board.
 
-2. **Setup**: At the beginning of the game, each player will be assigned territories equally. The number of territories each player receives depends on the total number of players. Players take turns in clockwise order.
+2. **Setup**: At the beginning of the game, each player will be assigned territories randomly. The number of territories each player receives depends on the total number of players. Players take turns in clockwise order.
 
-3. **Game Flow**: The game consists of multiple rounds, each divided into three phases: reinforcement, attack, and fortification.
+3. **Game Flow**: The game consists of multiple rounds, each divided into three phases: reinforcement, issue orders, and execution.
 
+![Screen Shot 2023-05-28 at 3 40 18 PM](https://github.com/TheRealSal/Risk-Game/assets/75696327/3172d2e5-f791-4370-a2b2-70b4f6d5b29a)
 
    - **Reinforcement Phase**: In this phase, players receive additional armies based on the number of territories they occupy and the continents they control. Players can strategically place their newly acquired armies on their territories.
 
-   - **Attack Phase**: Players can choose to attack neighboring territories held by other players. The attacking player must have at least two armies on the attacking territory and can roll dice to determine the outcome of the battle. The number of dice rolled depends on the number of armies on the attacking and defending territories.
+   - **Issue Orders Phase**: In this phase, players can issue orders to their armies. They can choose to attack neighboring territories, reinforce their own territories, or make other strategic moves. Each player takes turns issuing orders.
 
-   - **Fortification Phase**: Players can choose to move armies between their territories to reinforce their positions. This phase allows players to strengthen their defenses or prepare for an attack.
+   - **Execution Phase**: In this phase, the orders issued by the players are executed. Attacks are resolved, reinforcements are deployed, and the game board is updated accordingly.
 
-4. **Game Progression**: Players continue to take turns, going through the reinforcement, attack, and fortification phases until one player conquers the entire world or the game reaches a predefined number of rounds.
+4. **Game Progression**: Players continue to take turns, going through the reinforcement, issue orders, and execution phases until one player conquers the entire world or the game reaches a predefined number of rounds.
 
 5. **Winning the Game**: The game ends when one player controls all the territories on the game board or when the maximum number of rounds is reached. The player who achieves this goal is declared the winner.
 
@@ -71,12 +54,16 @@ To run the Risk Game on your local machine, follow the instructions below:
 
 ## Controls
 
+![Screen Shot 2023-05-28 at 3 40 09 PM](https://github.com/TheRealSal/Risk-Game/assets/75696327/17a22b2f-8d06-43cb-910a-974f3166dbb1)
+
 The game is played entirely using the console. You will be presented with menu options and prompts to enter your choices and commands. The specific controls and commands will be displayed on the screen during gameplay.
 
 ## Limitations and Future Enhancements
 
 - The current implementation is limited to a console-based version of the Risk Game. A graphical user interface (GUI) could be developed to enhance the gameplay experience.
 
-- The game could be expanded to include additional features such as online gameplay.
+- The game could be expanded to include additional features, such as multiplayer support or online gameplay.
+
+- The current version may have some limitations and bugs. Your feedback and contributions are welcome to improve the game.
 
 - The current version may have some limitations and bugs. Your feedback and contributions are welcome
